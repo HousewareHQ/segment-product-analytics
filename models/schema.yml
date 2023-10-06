@@ -1,0 +1,6 @@
+version: 2
+
+sources:
+  - name: "{{ var('segment_schema') }}"
+    tables:
+      - name: TRACKS
